@@ -61,6 +61,14 @@ VESIndividual >> fitness: anObject [
 ]
 
 { #category : 'as yet unclassified' }
+VESIndividual >> inspectorCode [
+	<inspectorPresentationOrder: 90 title: 'Code'>
+	^ SpTextPresenter new
+		text: self code;
+		yourself.
+]
+
+{ #category : 'as yet unclassified' }
 VESIndividual >> loc [
 	^ code lines size
 ]

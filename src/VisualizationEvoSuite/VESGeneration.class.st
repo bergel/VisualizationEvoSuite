@@ -47,3 +47,8 @@ VESGeneration >> iteration: anObject [
 VESGeneration >> numberOfIndividuals [
 	^ individuals size
 ]
+
+{ #category : 'printing' }
+VESGeneration >> printOn: str [
+	str nextPutAll: 'Generation ', self iteration asString.
+]

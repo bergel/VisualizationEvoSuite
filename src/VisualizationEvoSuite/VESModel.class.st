@@ -22,6 +22,7 @@ VESModel >> importFromString: aString [
 		l := s nextLine.	
 	 	(l = ' Initial population: { ' or: [ l beginsWith: 'Population for iteration:' ]) 
 			ifTrue: [ currentGeneration := VESGeneration new. 
+		 				currentGeneration iteration: self numberOfGenerations.
 						 generations add: currentGeneration.
 						 currentIndividualLines := OrderedCollection new. ]
 			ifFalse: [
