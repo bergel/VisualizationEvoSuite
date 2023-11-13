@@ -9,6 +9,11 @@ Class {
 	#package : 'VisualizationEvoSuite'
 }
 
+{ #category : 'adding' }
+VESGeneration >> addIndividual: ind [
+	individuals add: ind
+]
+
 { #category : 'accessing' }
 VESGeneration >> individuals [
 

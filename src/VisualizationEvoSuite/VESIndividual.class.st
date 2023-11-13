@@ -60,6 +60,11 @@ VESIndividual >> fitness: anObject [
 	fitness := anObject
 ]
 
+{ #category : 'as yet unclassified' }
+VESIndividual >> loc [
+	^ code lines size
+]
+
 { #category : 'accessing' }
 VESIndividual >> parents [
 
@@ -70,4 +75,10 @@ VESIndividual >> parents [
 VESIndividual >> parents: anObject [
 
 	parents := anObject
+]
+
+{ #category : 'printing' }
+VESIndividual >> printOn: str [
+	str nextPutAll: 'Individual LOC: ', self loc asString.
+	str nextPutAll: ' Fitness: ', self fitness asString.
 ]
