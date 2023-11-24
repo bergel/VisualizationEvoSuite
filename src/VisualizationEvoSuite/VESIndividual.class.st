@@ -5,24 +5,13 @@ Class {
 		'code',
 		'parents',
 		'fitness',
-		'children',
-		'esHash'
+		'esHash',
+		'offsprings',
+		'offspringsMutated'
 	],
 	#category : 'VisualizationEvoSuite',
 	#package : 'VisualizationEvoSuite'
 }
-
-{ #category : 'accessing' }
-VESIndividual >> children [
-
-	^ children
-]
-
-{ #category : 'accessing' }
-VESIndividual >> children: anObject [
-
-	children := anObject
-]
 
 { #category : 'accessing' }
 VESIndividual >> code [
@@ -45,7 +34,7 @@ VESIndividual >> esHash [
 { #category : 'accessing' }
 VESIndividual >> esHash: anObject [
 
-	esHash := anObject
+	esHash := anObject asInteger
 ]
 
 { #category : 'accessing' }
@@ -58,6 +47,12 @@ VESIndividual >> fitness [
 VESIndividual >> fitness: anObject [
 
 	fitness := anObject
+]
+
+{ #category : 'initialization' }
+VESIndividual >> initialize [
+	super initialize.
+	offsprings := OrderedCollection new
 ]
 
 { #category : 'as yet unclassified' }

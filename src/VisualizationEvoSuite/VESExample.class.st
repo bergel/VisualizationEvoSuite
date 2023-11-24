@@ -34,5 +34,5 @@ VESExample >> smallExampleReal [
 	"
 	self new smallExampleReal
 	"
-	^ VESModel new importFromString: '/Users/alexandrebergel/Downloads/2023-11-13-logEvoSuite.txt' asFileReference contents
+	^ VESModel new importFromString: '/Users/alexandrebergel/Downloads/2023-11-23-logEvoSuite.txt' asFileReference contents
 ]

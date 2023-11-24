@@ -15188,6 +15188,5066 @@ crossover(5): parent1: -318615232, parent2: -318615232, offspring1: -543718427, 
 '
 ]
 
+{ #category : 'tests' }
+VESTest >> codeExampleWithCrossover [
+^ ' Initial population: { 
+1922564739: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+String string1 = basicCredentials0.toString();
+basicCredentials0.equals(civAuthenticator0);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(optional0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+basicCredentials1.equals(string1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-1915796179: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "3G\"!~!4(?n#z,%Czs|";
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+String string2 = null;
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials0.equals(string0);
+basicCredentials0.equals(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+basicCredentials0.toString();
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+String string3 = "Sl]95~GS8r(|LvHW{,";
+String string4 = "Q,yTcF{M8?Q^l5_B&";
+Object object1 = new Object();
+basicCredentials1.equals(object1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string3, string4);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-1490128884: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "A--gX+";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string3);
+Player player0 = new Player();
+basicCredentials2.equals(player0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+1457754981: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+2085254763: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "player";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string2);
+basicCredentials1.equals(string2);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = null;
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-2051123940: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "C~<-dF\"_)3Z!";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+basicCredentials0.toString();
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+String string1 = "M*$S!J%m=y''wzR+mK";
+String string2 = "hQWDRDDlfeQtLD//=B";
+BasicCredentials basicCredentials1 = null;
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string1, string2);
+Object object0 = new Object();
+basicCredentials2.equals(string1);
+basicCredentials2.toString();
+basicCredentials2.equals(object0);
+civAuthenticator0.authenticate(basicCredentials2);
+Object object1 = new Object();
+basicCredentials0.equals(object1);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials2.equals(optional0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+String string3 = basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials3 = new BasicCredentials(string3, string1);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+1858073675: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = ";B-";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string3);
+basicCredentials1.equals(civAuthenticator0);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string1);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+1854099625: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = ",8f''j@U>0S%8";
+String string1 = "K]jQjR!=X&,jp{Wgj''2";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = "Uk^J~*''-}N89''*AN";
+basicCredentials0.equals(string1);
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string3);
+basicCredentials1.equals(string1);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string0);
+basicCredentials0.toString();
+basicCredentials2.equals(optional0);
+basicCredentials2.equals(string0);
+civAuthenticator0.authenticate(basicCredentials2);
+BasicCredentials basicCredentials3 = new BasicCredentials(string3, string1);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials3);
+
+	}
+},
+2088115447: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+Object object0 = new Object();
+basicCredentials0.equals(object0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "C*";
+String string2 = "=:w\\Mz8";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+567297051: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "~?4dOXw''\\>W?>GR";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+1189792674: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "player";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+BasicCredentials basicCredentials1 = null;
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "*.}<\\V}}Qwp)On";
+BasicCredentials basicCredentials2 = new BasicCredentials(string1, string0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+1001720174: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = null;
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string0 = "lUq@{[~nD?lIX";
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = null;
+String string2 = "#lSezC0lH~5GuxmXYk";
+BasicCredentials basicCredentials3 = new BasicCredentials(string1, string2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials3);
+basicCredentials3.toString();
+basicCredentials3.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+2108444542: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = null;
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string1);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+basicCredentials1.equals(basicCredentials0);
+basicCredentials1.equals(string0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+Object object1 = new Object();
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(object1);
+Object object2 = null;
+basicCredentials0.toString();
+String string2 = basicCredentials0.toString();
+basicCredentials0.equals(object2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials2 = null;
+civAuthenticator0.authenticate(basicCredentials2);
+BasicCredentials basicCredentials3 = new BasicCredentials(string0, string2);
+basicCredentials3.toString();
+basicCredentials3.toString();
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-920862105: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "/{qeS\\w";
+String string1 = "usePowerOfTwoSizes";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "Q!XX>7HT]y";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string0);
+basicCredentials1.equals(dB0);
+civAuthenticator0.authenticate(basicCredentials1);
+String string3 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string3);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-2007893238: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "h|xfC=JKBP<wt`V0";
+String string1 = "yB[DgJ=/FK|U]H";
+String string2 = "`/-iH!fRsOi;=dq~>w";
+BasicCredentials basicCredentials0 = new BasicCredentials(string2, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+basicCredentials1.equals(string0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+1110690003: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+1297769442: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "T@";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.equals(string0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(string0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(string1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "(}486Q%S/iyXPwv;A6";
+Player player0 = new Player();
+basicCredentials0.equals(player0);
+String string3 = ",eXZr&L%O1](*";
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-1959020564: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "#v]mL.L<k8}z5ir";
+String string1 = "PYw";
+BasicCredentials basicCredentials0 = new BasicCredentials(string1, string0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials2);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+Object object0 = new Object();
+basicCredentials0.equals(object0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+436061857: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials2);
+BasicCredentials basicCredentials3 = new BasicCredentials(string0, string0);
+String string2 = "com.fasterxml.jackson.databind.ser.std.TokenBufferSerializer";
+String string3 = "";
+BasicCredentials basicCredentials4 = new BasicCredentials(string2, string3);
+civAuthenticator0.authenticate(basicCredentials4);
+String string4 = basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials3);
+basicCredentials0.toString();
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials3);
+basicCredentials0.toString();
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials3);
+String string5 = "kzl";
+BasicCredentials basicCredentials5 = new BasicCredentials(string5, string4);
+civAuthenticator0.authenticate(basicCredentials5);
+
+	}
+},
+-483514464: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+Object object0 = new Object();
+basicCredentials0.equals(object0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+basicCredentials1.toString();
+basicCredentials1.toString();
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials2 = null;
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+1449715134: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(string0);
+basicCredentials0.toString();
+basicCredentials0.equals(dB0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string2);
+basicCredentials0.equals(optional0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+28733518: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "r!pZ1)LmDmK1";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+1208361219: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string1, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "com.fasterxml.jackson.core.io.SerializedString";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string2);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+Object object1 = new Object();
+basicCredentials0.equals(object1);
+basicCredentials1.toString();
+String string3 = basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+String string4 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string4, string3);
+civAuthenticator0.authenticate(basicCredentials2);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials3 = new BasicCredentials(string1, string2);
+civAuthenticator0.authenticate(basicCredentials3);
+
+	}
+},
+-353431390: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-884821849: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "player";
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "hn";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+String string2 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string2);
+civAuthenticator0.authenticate(basicCredentials2);
+Object object0 = null;
+basicCredentials2.equals(object0);
+Player player0 = new Player();
+basicCredentials2.equals(player0);
+civAuthenticator0.authenticate(basicCredentials2);
+Object object1 = new Object();
+basicCredentials2.equals(object1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+String string3 = "";
+BasicCredentials basicCredentials3 = new BasicCredentials(string1, string3);
+Player player1 = new Player();
+String string4 = "";
+player1.setNewPassword(string4);
+basicCredentials3.equals(player1);
+Object object2 = new Object();
+basicCredentials3.equals(object2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+159345268: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+1900954641: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = " / ez$U%v!.%*W''Q13";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "";
+String string2 = "< nKGl9zC>x^TicY&";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-1664368464: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+1329169869: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = null;
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string3);
+Player player0 = new Player();
+basicCredentials1.toString();
+basicCredentials1.equals(player0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-493172899: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "N :[u2wf";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+basicCredentials0.toString();
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "Y1Pk|tf,25";
+String string2 = "DAxy._>A|zIsiRk\"GV";
+String string3 = "";
+String string4 = "GQcT+6,,)9ST*";
+BasicCredentials basicCredentials1 = new BasicCredentials(string3, string4);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string1, string2);
+Object object0 = new Object();
+basicCredentials2.equals(object0);
+civAuthenticator0.authenticate(basicCredentials2);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials1);
+String string5 = "";
+String string6 = "no.asgari.civilization.server.application.CivAuthenticator";
+BasicCredentials basicCredentials3 = new BasicCredentials(string5, string6);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials3.equals(optional0);
+basicCredentials3.toString();
+basicCredentials3.toString();
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+732440487: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "kr55n?Yx[Oo!_WkOZ";
+String string1 = "5gD4oQl1nlx<!Bd(M.";
+String string2 = "";
+String string3 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string2, string3);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-1567628372: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "t!Yb7]K~HX+z?:4b!";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string1, string1);
+basicCredentials0.toString();
+basicCredentials0.toString();
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+String string2 = ";c8l!!O^;A";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string2);
+basicCredentials1.equals(optional0);
+basicCredentials1.toString();
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string3 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-1887808668: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+String string1 = "+INF";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.equals(string0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+944243771: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+String string0 = ".?0JwB|PqsHSd(";
+String string1 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+2044766883: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "2@)#qu[$OF^T^RW&Xbe";
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "3yl";
+String string2 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.equals(basicCredentials0);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string0);
+Object object1 = new Object();
+basicCredentials1.equals(object1);
+basicCredentials2.equals(string2);
+Object object2 = new Object();
+basicCredentials2.equals(object2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-632347451: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "org.bson.codecs.BsonInt32Codec";
+String string1 = "no.asgari.civilization.server.application.CivAuthenticator";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.equals(string0);
+basicCredentials0.equals(string1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-365849487: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "com.fasterxml.jackson.databind.DatabindContext";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "$AD";
+String string2 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+basicCredentials1.toString();
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+Object object0 = new Object();
+basicCredentials0.toString();
+basicCredentials1.equals(object0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-242809285: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "!;XsL>^OJ''R-6=jq?@P";
+String string1 = "UFI~h4!=C>";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+1292260496: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials1);
+Optional<Player> optional1 = civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+String string1 = "Attempting to decode the string ''%s'' to a character, but its length is not equal to one";
+BasicCredentials basicCredentials2 = new BasicCredentials(string1, string1);
+Object object0 = new Object();
+basicCredentials2.equals(object0);
+basicCredentials2.equals(optional0);
+civAuthenticator0.authenticate(basicCredentials2);
+basicCredentials2.equals(optional1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-1251384825: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "AF`xT";
+String string1 = "player";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "org.bson.json.LegacyExtendedJsonBinaryConverter";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string2);
+basicCredentials1.equals(civAuthenticator0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+String string3 = "";
+String string4 = "4mI:%/~c\\#4Iy~ `}";
+BasicCredentials basicCredentials2 = new BasicCredentials(string3, string4);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+1079366271: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "; expected Class<KeyDeserializer>";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+949853017: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "no.asgari.civilization.server.application.CivAuthenticator";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "63dmQr.,[a*ks\"A[";
+String string3 = "^da=|:G&k~LolWjc[";
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string3);
+basicCredentials2.equals(civAuthenticator0);
+civAuthenticator0.authenticate(basicCredentials2);
+basicCredentials0.toString();
+Object object0 = new Object();
+basicCredentials0.equals(object0);
+basicCredentials0.equals(civAuthenticator0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+16288581: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "username";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-154615919: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "F";
+String string1 = "Sow=Rg>h]\\e%";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = ", double)";
+String string4 = "F";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string4);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string3);
+basicCredentials2.equals(string3);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials2);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+String string5 = basicCredentials2.toString();
+basicCredentials1.equals(string5);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+String string6 = null;
+BasicCredentials basicCredentials3 = new BasicCredentials(string6, string2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-33401311: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "x`fWen ;3wRe";
+String string1 = "@Kz[&+";
+String string2 = "F^''8s0n29M3d:w6 @";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string2);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string0);
+civAuthenticator0.authenticate(basicCredentials1);
+String string3 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string3);
+Player player0 = new Player();
+basicCredentials2.equals(player0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+595251407: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+517051618: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "Timestamp{value=";
+String string1 = "jV";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+Player player0 = new Player();
+basicCredentials0.equals(player0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+380377982: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "Unrecognized Type: ";
+String string1 = "hP@nYg";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "d''W\\|l$47zK%f*+ESp";
+String string3 = "c";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string3);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-447738866: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "M(^~j:";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials1);
+String string1 = "";
+Player player0 = new Player();
+basicCredentials1.equals(player0);
+String string2 = "player";
+BasicCredentials basicCredentials2 = new BasicCredentials(string1, string2);
+Player player1 = new Player();
+basicCredentials2.equals(player1);
+basicCredentials2.equals(civAuthenticator0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+String string3 = "no.asgari.civilization.server.application.CivAuthenticator";
+BasicCredentials basicCredentials3 = new BasicCredentials(player0.COL_NAME, string3);
+civAuthenticator0.authenticate(basicCredentials3);
+
+	}
+},
+1196566165: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "tL\\+RVm==Ls%0E,8";
+String string1 = "";
+String string2 = "player";
+BasicCredentials basicCredentials0 = new BasicCredentials(string1, string2);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+}, }
+crossover(0): parent1: -1664368464, parent2: -1664368464, offspring1: {id: 1647790099, mutated: True}, offspring2: {id: 789868941, mutated: False}
+crossover(0): parent1: 1292260496, parent2: 28733518, offspring1: {id: -73893214, mutated: True}, offspring2: {id: 1343748545, mutated: False}
+crossover(0): parent1: 1922564739, parent2: -1664368464, offspring1: {id: -836140991, mutated: True}, offspring2: {id: 178947424, mutated: False}
+crossover(0): parent1: 1110690003, parent2: 1858073675, offspring1: {id: -1191627269, mutated: True}, offspring2: {id: -325745190, mutated: False}
+crossover(0): parent1: -1664368464, parent2: 1110690003, offspring1: {id: -624663486, mutated: True}, offspring2: {id: 1804045220, mutated: False}
+crossover(0): parent1: 732440487, parent2: 159345268, offspring1: {id: -1867813998, mutated: True}, offspring2: {id: 1408556604, mutated: False}
+crossover(0): parent1: 1457754981, parent2: -1664368464, offspring1: {id: 647747131, mutated: True}, offspring2: {id: 961252002, mutated: False}
+crossover(0): parent1: 159345268, parent2: -2007893238, offspring1: {id: -1661355053, mutated: True}, offspring2: {id: 481894687, mutated: False}
+crossover(0): parent1: -1251384825, parent2: 1208361219, offspring1: {id: 1980301362, mutated: True}, offspring2: {id: -1817323809, mutated: False}
+crossover(0): parent1: 1110690003, parent2: -1664368464, offspring1: {id: -371183084, mutated: True}, offspring2: {id: 572051806, mutated: False}
+crossover(0): parent1: 159345268, parent2: 159345268, offspring1: {id: 2038156958, mutated: True}, offspring2: {id: 786265768, mutated: False}
+crossover(0): parent1: 159345268, parent2: -1567628372, offspring1: {id: 527483641, mutated: True}, offspring2: {id: -214267398, mutated: False}
+crossover(0): parent1: 517051618, parent2: 949853017, offspring1: {id: 265385578, mutated: True}, offspring2: {id: 1099311726, mutated: False}
+crossover(0): parent1: 1110690003, parent2: 1858073675, offspring1: {id: 249811728, mutated: True}, offspring2: {id: 1547602918, mutated: False}
+crossover(0): parent1: 159345268, parent2: 1110690003, offspring1: {id: -929294810, mutated: True}, offspring2: {id: -1843605751, mutated: False}
+crossover(0): parent1: 944243771, parent2: 2108444542, offspring1: {id: 1451073638, mutated: True}, offspring2: {id: 2129438792, mutated: False}
+crossover(0): parent1: 517051618, parent2: -884821849, offspring1: {id: 507796314, mutated: True}, offspring2: {id: 1208326852, mutated: False}
+crossover(0): parent1: -1251384825, parent2: 1110690003, offspring1: {id: -272921636, mutated: True}, offspring2: {id: -8044305, mutated: False}
+crossover(0): parent1: -353431390, parent2: -1664368464, offspring1: {id: -1933929427, mutated: True}, offspring2: {id: 678416814, mutated: False}
+crossover(0): parent1: 28733518, parent2: 2088115447, offspring1: {id: 1744511547, mutated: True}, offspring2: {id: -221134839, mutated: False}
+crossover(0): parent1: 1110690003, parent2: 517051618, offspring1: {id: 797491813, mutated: True}, offspring2: {id: -1422327836, mutated: False}
+crossover(0): parent1: -1664368464, parent2: -1664368464, offspring1: {id: 863766496, mutated: True}, offspring2: {id: 1845749825, mutated: False}
+crossover(0): parent1: 159345268, parent2: 1110690003, offspring1: {id: -925645093, mutated: True}, offspring2: {id: 1092383176, mutated: False}
+crossover(0): parent1: 159345268, parent2: 16288581, offspring1: {id: -1945550460, mutated: True}, offspring2: {id: -125618594, mutated: False}
+crossover(0): parent1: -1251384825, parent2: 1110690003, offspring1: {id: -1694637256, mutated: True}, offspring2: {id: -1649496686, mutated: False}
+
+Population for iteration: 0 { 
+-1843605751: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+-925645093: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+572051806: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+-624663486: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+786265768: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+1922564739: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+String string1 = basicCredentials0.toString();
+basicCredentials0.equals(civAuthenticator0);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(optional0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+basicCredentials1.equals(string1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-1915796179: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "3G\"!~!4(?n#z,%Czs|";
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+String string2 = null;
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials0.equals(string0);
+basicCredentials0.equals(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+basicCredentials0.toString();
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+String string3 = "Sl]95~GS8r(|LvHW{,";
+String string4 = "Q,yTcF{M8?Q^l5_B&";
+Object object1 = new Object();
+basicCredentials1.equals(object1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string3, string4);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-1490128884: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "A--gX+";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string3);
+Player player0 = new Player();
+basicCredentials2.equals(player0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+1457754981: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+2085254763: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "player";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string2);
+basicCredentials1.equals(string2);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = null;
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-2051123940: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "C~<-dF\"_)3Z!";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+basicCredentials0.toString();
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+String string1 = "M*$S!J%m=y''wzR+mK";
+String string2 = "hQWDRDDlfeQtLD//=B";
+BasicCredentials basicCredentials1 = null;
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string1, string2);
+Object object0 = new Object();
+basicCredentials2.equals(string1);
+basicCredentials2.toString();
+basicCredentials2.equals(object0);
+civAuthenticator0.authenticate(basicCredentials2);
+Object object1 = new Object();
+basicCredentials0.equals(object1);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials2.equals(optional0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+String string3 = basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials3 = new BasicCredentials(string3, string1);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+1858073675: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = ";B-";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string3);
+basicCredentials1.equals(civAuthenticator0);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string1);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+1854099625: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = ",8f''j@U>0S%8";
+String string1 = "K]jQjR!=X&,jp{Wgj''2";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = "Uk^J~*''-}N89''*AN";
+basicCredentials0.equals(string1);
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string3);
+basicCredentials1.equals(string1);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string0);
+basicCredentials0.toString();
+basicCredentials2.equals(optional0);
+basicCredentials2.equals(string0);
+civAuthenticator0.authenticate(basicCredentials2);
+BasicCredentials basicCredentials3 = new BasicCredentials(string3, string1);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials3);
+
+	}
+},
+2088115447: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+Object object0 = new Object();
+basicCredentials0.equals(object0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "C*";
+String string2 = "=:w\\Mz8";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+567297051: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "~?4dOXw''\\>W?>GR";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+1189792674: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "player";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+BasicCredentials basicCredentials1 = null;
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "*.}<\\V}}Qwp)On";
+BasicCredentials basicCredentials2 = new BasicCredentials(string1, string0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+1001720174: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = null;
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string0 = "lUq@{[~nD?lIX";
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = null;
+String string2 = "#lSezC0lH~5GuxmXYk";
+BasicCredentials basicCredentials3 = new BasicCredentials(string1, string2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials3);
+basicCredentials3.toString();
+basicCredentials3.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+2108444542: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = null;
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string1);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+basicCredentials1.equals(basicCredentials0);
+basicCredentials1.equals(string0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+Object object1 = new Object();
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(object1);
+Object object2 = null;
+basicCredentials0.toString();
+String string2 = basicCredentials0.toString();
+basicCredentials0.equals(object2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials2 = null;
+civAuthenticator0.authenticate(basicCredentials2);
+BasicCredentials basicCredentials3 = new BasicCredentials(string0, string2);
+basicCredentials3.toString();
+basicCredentials3.toString();
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-920862105: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "/{qeS\\w";
+String string1 = "usePowerOfTwoSizes";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "Q!XX>7HT]y";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string0);
+basicCredentials1.equals(dB0);
+civAuthenticator0.authenticate(basicCredentials1);
+String string3 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string3);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-2007893238: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "h|xfC=JKBP<wt`V0";
+String string1 = "yB[DgJ=/FK|U]H";
+String string2 = "`/-iH!fRsOi;=dq~>w";
+BasicCredentials basicCredentials0 = new BasicCredentials(string2, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+basicCredentials1.equals(string0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+1110690003: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+1297769442: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "T@";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.equals(string0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(string0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(string1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "(}486Q%S/iyXPwv;A6";
+Player player0 = new Player();
+basicCredentials0.equals(player0);
+String string3 = ",eXZr&L%O1](*";
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-1959020564: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "#v]mL.L<k8}z5ir";
+String string1 = "PYw";
+BasicCredentials basicCredentials0 = new BasicCredentials(string1, string0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials2);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+Object object0 = new Object();
+basicCredentials0.equals(object0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+436061857: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials2);
+BasicCredentials basicCredentials3 = new BasicCredentials(string0, string0);
+String string2 = "com.fasterxml.jackson.databind.ser.std.TokenBufferSerializer";
+String string3 = "";
+BasicCredentials basicCredentials4 = new BasicCredentials(string2, string3);
+civAuthenticator0.authenticate(basicCredentials4);
+String string4 = basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials3);
+basicCredentials0.toString();
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials3);
+basicCredentials0.toString();
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials3);
+String string5 = "kzl";
+BasicCredentials basicCredentials5 = new BasicCredentials(string5, string4);
+civAuthenticator0.authenticate(basicCredentials5);
+
+	}
+},
+-483514464: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+Object object0 = new Object();
+basicCredentials0.equals(object0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+basicCredentials1.toString();
+basicCredentials1.toString();
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials2 = null;
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+1449715134: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(string0);
+basicCredentials0.toString();
+basicCredentials0.equals(dB0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string2);
+basicCredentials0.equals(optional0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+28733518: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "r!pZ1)LmDmK1";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+1208361219: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string1, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "com.fasterxml.jackson.core.io.SerializedString";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string2);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+Object object1 = new Object();
+basicCredentials0.equals(object1);
+basicCredentials1.toString();
+String string3 = basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+String string4 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string4, string3);
+civAuthenticator0.authenticate(basicCredentials2);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials3 = new BasicCredentials(string1, string2);
+civAuthenticator0.authenticate(basicCredentials3);
+
+	}
+},
+-353431390: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-884821849: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "player";
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "hn";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+String string2 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string2);
+civAuthenticator0.authenticate(basicCredentials2);
+Object object0 = null;
+basicCredentials2.equals(object0);
+Player player0 = new Player();
+basicCredentials2.equals(player0);
+civAuthenticator0.authenticate(basicCredentials2);
+Object object1 = new Object();
+basicCredentials2.equals(object1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+String string3 = "";
+BasicCredentials basicCredentials3 = new BasicCredentials(string1, string3);
+Player player1 = new Player();
+String string4 = "";
+player1.setNewPassword(string4);
+basicCredentials3.equals(player1);
+Object object2 = new Object();
+basicCredentials3.equals(object2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+159345268: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+1900954641: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = " / ez$U%v!.%*W''Q13";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "";
+String string2 = "< nKGl9zC>x^TicY&";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-1664368464: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+1329169869: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = null;
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string3);
+Player player0 = new Player();
+basicCredentials1.toString();
+basicCredentials1.equals(player0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-493172899: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "N :[u2wf";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+basicCredentials0.toString();
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "Y1Pk|tf,25";
+String string2 = "DAxy._>A|zIsiRk\"GV";
+String string3 = "";
+String string4 = "GQcT+6,,)9ST*";
+BasicCredentials basicCredentials1 = new BasicCredentials(string3, string4);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string1, string2);
+Object object0 = new Object();
+basicCredentials2.equals(object0);
+civAuthenticator0.authenticate(basicCredentials2);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials1);
+String string5 = "";
+String string6 = "no.asgari.civilization.server.application.CivAuthenticator";
+BasicCredentials basicCredentials3 = new BasicCredentials(string5, string6);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials3.equals(optional0);
+basicCredentials3.toString();
+basicCredentials3.toString();
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+732440487: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "kr55n?Yx[Oo!_WkOZ";
+String string1 = "5gD4oQl1nlx<!Bd(M.";
+String string2 = "";
+String string3 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string2, string3);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-1567628372: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "t!Yb7]K~HX+z?:4b!";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string1, string1);
+basicCredentials0.toString();
+basicCredentials0.toString();
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+String string2 = ";c8l!!O^;A";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string2);
+basicCredentials1.equals(optional0);
+basicCredentials1.toString();
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string3 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-1887808668: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+String string1 = "+INF";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.equals(string0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+944243771: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+String string0 = ".?0JwB|PqsHSd(";
+String string1 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+2044766883: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "2@)#qu[$OF^T^RW&Xbe";
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "3yl";
+String string2 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.equals(basicCredentials0);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string0);
+Object object1 = new Object();
+basicCredentials1.equals(object1);
+basicCredentials2.equals(string2);
+Object object2 = new Object();
+basicCredentials2.equals(object2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-632347451: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "org.bson.codecs.BsonInt32Codec";
+String string1 = "no.asgari.civilization.server.application.CivAuthenticator";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.equals(string0);
+basicCredentials0.equals(string1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-365849487: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "com.fasterxml.jackson.databind.DatabindContext";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "$AD";
+String string2 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+basicCredentials1.toString();
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+Object object0 = new Object();
+basicCredentials0.toString();
+basicCredentials1.equals(object0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-242809285: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "!;XsL>^OJ''R-6=jq?@P";
+String string1 = "UFI~h4!=C>";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+1292260496: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials1);
+Optional<Player> optional1 = civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+String string1 = "Attempting to decode the string ''%s'' to a character, but its length is not equal to one";
+BasicCredentials basicCredentials2 = new BasicCredentials(string1, string1);
+Object object0 = new Object();
+basicCredentials2.equals(object0);
+basicCredentials2.equals(optional0);
+civAuthenticator0.authenticate(basicCredentials2);
+basicCredentials2.equals(optional1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-1251384825: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "AF`xT";
+String string1 = "player";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "org.bson.json.LegacyExtendedJsonBinaryConverter";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string2);
+basicCredentials1.equals(civAuthenticator0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+String string3 = "";
+String string4 = "4mI:%/~c\\#4Iy~ `}";
+BasicCredentials basicCredentials2 = new BasicCredentials(string3, string4);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+1079366271: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "; expected Class<KeyDeserializer>";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+949853017: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "no.asgari.civilization.server.application.CivAuthenticator";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "63dmQr.,[a*ks\"A[";
+String string3 = "^da=|:G&k~LolWjc[";
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string3);
+basicCredentials2.equals(civAuthenticator0);
+civAuthenticator0.authenticate(basicCredentials2);
+basicCredentials0.toString();
+Object object0 = new Object();
+basicCredentials0.equals(object0);
+basicCredentials0.equals(civAuthenticator0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+16288581: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "username";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-154615919: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "F";
+String string1 = "Sow=Rg>h]\\e%";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = ", double)";
+String string4 = "F";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string4);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string3);
+basicCredentials2.equals(string3);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials2);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+String string5 = basicCredentials2.toString();
+basicCredentials1.equals(string5);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+String string6 = null;
+BasicCredentials basicCredentials3 = new BasicCredentials(string6, string2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-33401311: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "x`fWen ;3wRe";
+String string1 = "@Kz[&+";
+String string2 = "F^''8s0n29M3d:w6 @";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string2);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string0);
+civAuthenticator0.authenticate(basicCredentials1);
+String string3 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string3);
+Player player0 = new Player();
+basicCredentials2.equals(player0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+}, }
+
+Uncovered goals in iteration 0: 58
+Covered goals(7) iteration 0
+	 no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 35 
+	 no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 34 
+	 Weak Mutation 0: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V:35 - ReplaceConstant - player ->  
+	 no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch 
+	 [METHOD] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V 
+	 Branch no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch in context: no.asgari.civilization.server.application.CivAuthenticator:<init>(Lcom/mongodb/DB;)V 
+	 <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT 
+
+Target goals(13) iteration 0
+	 [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true, 
+	 no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false, 
+	 Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username -> , 
+	 Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false, 
+	 [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41, 
+	 [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40, 
+
+Goals for chromosomes in iteration 0: {
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 35 }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 34 }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 0.000000, goal: Weak Mutation 0: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V:35 - ReplaceConstant - player ->  }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: [METHOD] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 0.000000, goal: Branch no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch in context: no.asgari.civilization.server.application.CivAuthenticator:<init>(Lcom/mongodb/DB;)V }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+}
+
+crossover(1): parent1: -1915796179, parent2: 1297769442, offspring1: {id: -33933552, mutated: True}, offspring2: {id: 1828753010, mutated: False}
+crossover(1): parent1: 436061857, parent2: -624663486, offspring1: {id: -844025361, mutated: True}, offspring2: {id: -1814547835, mutated: False}
+crossover(1): parent1: 786265768, parent2: -920862105, offspring1: {id: 1819754638, mutated: True}, offspring2: {id: 784046554, mutated: False}
+crossover(1): parent1: 572051806, parent2: -1915796179, offspring1: {id: 1372050835, mutated: True}, offspring2: {id: 696507713, mutated: False}
+crossover(1): parent1: 572051806, parent2: 572051806, offspring1: {id: -1555603901, mutated: True}, offspring2: {id: 1198712030, mutated: False}
+crossover(1): parent1: -624663486, parent2: -925645093, offspring1: {id: 1967254778, mutated: True}, offspring2: {id: -1258983621, mutated: False}
+crossover(1): parent1: -1915796179, parent2: 786265768, offspring1: {id: 1471410234, mutated: True}, offspring2: {id: 734741927, mutated: False}
+crossover(1): parent1: 786265768, parent2: -624663486, offspring1: {id: -1507528807, mutated: True}, offspring2: {id: 399368161, mutated: False}
+crossover(1): parent1: -1490128884, parent2: -925645093, offspring1: {id: -1668194332, mutated: True}, offspring2: {id: 2018973895, mutated: False}
+crossover(1): parent1: 786265768, parent2: -154615919, offspring1: {id: 539979596, mutated: True}, offspring2: {id: -1599789447, mutated: False}
+crossover(1): parent1: -624663486, parent2: -925645093, offspring1: {id: -341503145, mutated: True}, offspring2: {id: 1570101445, mutated: False}
+crossover(1): parent1: 572051806, parent2: -624663486, offspring1: {id: 1662082769, mutated: True}, offspring2: {id: -1475789716, mutated: False}
+crossover(1): parent1: 572051806, parent2: 786265768, offspring1: {id: -1096152452, mutated: True}, offspring2: {id: 865451519, mutated: False}
+crossover(1): parent1: -632347451, parent2: -925645093, offspring1: {id: -1519028095, mutated: True}, offspring2: {id: 1062400705, mutated: False}
+crossover(1): parent1: -1843605751, parent2: -624663486, offspring1: {id: -2091636537, mutated: True}, offspring2: {id: -940926710, mutated: False}
+crossover(1): parent1: 786265768, parent2: -1843605751, offspring1: {id: -552067305, mutated: True}, offspring2: {id: 1958279597, mutated: False}
+crossover(1): parent1: -1843605751, parent2: 16288581, offspring1: {id: -1023379160, mutated: True}, offspring2: {id: -1758809900, mutated: False}
+crossover(1): parent1: -1490128884, parent2: -1843605751, offspring1: {id: -727346447, mutated: True}, offspring2: {id: 1610766472, mutated: False}
+crossover(1): parent1: -1843605751, parent2: 786265768, offspring1: {id: 823264651, mutated: True}, offspring2: {id: -1508387693, mutated: False}
+crossover(1): parent1: 732440487, parent2: -925645093, offspring1: {id: 110032190, mutated: True}, offspring2: {id: -1397080861, mutated: False}
+crossover(1): parent1: -2007893238, parent2: 786265768, offspring1: {id: -790144405, mutated: True}, offspring2: {id: 586458852, mutated: False}
+crossover(1): parent1: -1843605751, parent2: 436061857, offspring1: {id: -720979106, mutated: True}, offspring2: {id: -295567899, mutated: False}
+crossover(1): parent1: -624663486, parent2: -1843605751, offspring1: {id: 1239484173, mutated: True}, offspring2: {id: 326333697, mutated: False}
+crossover(1): parent1: -925645093, parent2: -624663486, offspring1: {id: -1888874497, mutated: True}, offspring2: {id: -1389241509, mutated: False}
+crossover(1): parent1: -624663486, parent2: 786265768, offspring1: {id: -2101839201, mutated: True}, offspring2: {id: 1991100981, mutated: False}
+
+Population for iteration: 1 { 
+-1888874497: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+1239484173: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+-1096152452: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+326333697: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+-2091636537: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+-1843605751: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+-925645093: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+572051806: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+-624663486: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+786265768: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+1922564739: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+String string1 = basicCredentials0.toString();
+basicCredentials0.equals(civAuthenticator0);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(optional0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+basicCredentials1.equals(string1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-1915796179: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "3G\"!~!4(?n#z,%Czs|";
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+String string2 = null;
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials0.equals(string0);
+basicCredentials0.equals(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+basicCredentials0.toString();
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+String string3 = "Sl]95~GS8r(|LvHW{,";
+String string4 = "Q,yTcF{M8?Q^l5_B&";
+Object object1 = new Object();
+basicCredentials1.equals(object1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string3, string4);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-1490128884: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "A--gX+";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string3);
+Player player0 = new Player();
+basicCredentials2.equals(player0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+1457754981: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+2085254763: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "player";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string2);
+basicCredentials1.equals(string2);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = null;
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-2051123940: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "C~<-dF\"_)3Z!";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+basicCredentials0.toString();
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+String string1 = "M*$S!J%m=y''wzR+mK";
+String string2 = "hQWDRDDlfeQtLD//=B";
+BasicCredentials basicCredentials1 = null;
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string1, string2);
+Object object0 = new Object();
+basicCredentials2.equals(string1);
+basicCredentials2.toString();
+basicCredentials2.equals(object0);
+civAuthenticator0.authenticate(basicCredentials2);
+Object object1 = new Object();
+basicCredentials0.equals(object1);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials2.equals(optional0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+String string3 = basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials3 = new BasicCredentials(string3, string1);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+1858073675: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = ";B-";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string3);
+basicCredentials1.equals(civAuthenticator0);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string1);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+1854099625: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = ",8f''j@U>0S%8";
+String string1 = "K]jQjR!=X&,jp{Wgj''2";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = "Uk^J~*''-}N89''*AN";
+basicCredentials0.equals(string1);
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string3);
+basicCredentials1.equals(string1);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string0);
+basicCredentials0.toString();
+basicCredentials2.equals(optional0);
+basicCredentials2.equals(string0);
+civAuthenticator0.authenticate(basicCredentials2);
+BasicCredentials basicCredentials3 = new BasicCredentials(string3, string1);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials3);
+
+	}
+},
+2088115447: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+Object object0 = new Object();
+basicCredentials0.equals(object0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "C*";
+String string2 = "=:w\\Mz8";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+567297051: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "~?4dOXw''\\>W?>GR";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+1189792674: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "player";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+BasicCredentials basicCredentials1 = null;
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "*.}<\\V}}Qwp)On";
+BasicCredentials basicCredentials2 = new BasicCredentials(string1, string0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+1001720174: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = null;
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string0 = "lUq@{[~nD?lIX";
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = null;
+String string2 = "#lSezC0lH~5GuxmXYk";
+BasicCredentials basicCredentials3 = new BasicCredentials(string1, string2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials3);
+basicCredentials3.toString();
+basicCredentials3.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+2108444542: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = null;
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string1);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+basicCredentials1.equals(basicCredentials0);
+basicCredentials1.equals(string0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+Object object1 = new Object();
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(object1);
+Object object2 = null;
+basicCredentials0.toString();
+String string2 = basicCredentials0.toString();
+basicCredentials0.equals(object2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials2 = null;
+civAuthenticator0.authenticate(basicCredentials2);
+BasicCredentials basicCredentials3 = new BasicCredentials(string0, string2);
+basicCredentials3.toString();
+basicCredentials3.toString();
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-920862105: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "/{qeS\\w";
+String string1 = "usePowerOfTwoSizes";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "Q!XX>7HT]y";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string0);
+basicCredentials1.equals(dB0);
+civAuthenticator0.authenticate(basicCredentials1);
+String string3 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string3);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-2007893238: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "h|xfC=JKBP<wt`V0";
+String string1 = "yB[DgJ=/FK|U]H";
+String string2 = "`/-iH!fRsOi;=dq~>w";
+BasicCredentials basicCredentials0 = new BasicCredentials(string2, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+basicCredentials1.equals(string0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+1110690003: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+1297769442: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "T@";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.equals(string0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(string0);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(string1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "(}486Q%S/iyXPwv;A6";
+Player player0 = new Player();
+basicCredentials0.equals(player0);
+String string3 = ",eXZr&L%O1](*";
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-1959020564: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "#v]mL.L<k8}z5ir";
+String string1 = "PYw";
+BasicCredentials basicCredentials0 = new BasicCredentials(string1, string0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials2);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+Object object0 = new Object();
+basicCredentials0.equals(object0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+436061857: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials2);
+BasicCredentials basicCredentials3 = new BasicCredentials(string0, string0);
+String string2 = "com.fasterxml.jackson.databind.ser.std.TokenBufferSerializer";
+String string3 = "";
+BasicCredentials basicCredentials4 = new BasicCredentials(string2, string3);
+civAuthenticator0.authenticate(basicCredentials4);
+String string4 = basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials3);
+basicCredentials0.toString();
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials3);
+basicCredentials0.toString();
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials3);
+String string5 = "kzl";
+BasicCredentials basicCredentials5 = new BasicCredentials(string5, string4);
+civAuthenticator0.authenticate(basicCredentials5);
+
+	}
+},
+-483514464: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+Object object0 = new Object();
+basicCredentials0.equals(object0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+basicCredentials1.toString();
+basicCredentials1.toString();
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials2 = null;
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+1449715134: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.equals(string0);
+basicCredentials0.toString();
+basicCredentials0.equals(dB0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string2);
+basicCredentials0.equals(optional0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+28733518: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "r!pZ1)LmDmK1";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+1208361219: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string1, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "com.fasterxml.jackson.core.io.SerializedString";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string2);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+Object object1 = new Object();
+basicCredentials0.equals(object1);
+basicCredentials1.toString();
+String string3 = basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+String string4 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string4, string3);
+civAuthenticator0.authenticate(basicCredentials2);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials3 = new BasicCredentials(string1, string2);
+civAuthenticator0.authenticate(basicCredentials3);
+
+	}
+},
+-353431390: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-884821849: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "player";
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "hn";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+String string2 = "";
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string2);
+civAuthenticator0.authenticate(basicCredentials2);
+Object object0 = null;
+basicCredentials2.equals(object0);
+Player player0 = new Player();
+basicCredentials2.equals(player0);
+civAuthenticator0.authenticate(basicCredentials2);
+Object object1 = new Object();
+basicCredentials2.equals(object1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+String string3 = "";
+BasicCredentials basicCredentials3 = new BasicCredentials(string1, string3);
+Player player1 = new Player();
+String string4 = "";
+player1.setNewPassword(string4);
+basicCredentials3.equals(player1);
+Object object2 = new Object();
+basicCredentials3.equals(object2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+159345268: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+1900954641: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = " / ez$U%v!.%*W''Q13";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "";
+String string2 = "< nKGl9zC>x^TicY&";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-1664368464: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+
+	}
+},
+1329169869: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "";
+String string3 = null;
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string3);
+Player player0 = new Player();
+basicCredentials1.toString();
+basicCredentials1.equals(player0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-493172899: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "N :[u2wf";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+basicCredentials0.toString();
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "Y1Pk|tf,25";
+String string2 = "DAxy._>A|zIsiRk\"GV";
+String string3 = "";
+String string4 = "GQcT+6,,)9ST*";
+BasicCredentials basicCredentials1 = new BasicCredentials(string3, string4);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+BasicCredentials basicCredentials2 = new BasicCredentials(string1, string2);
+Object object0 = new Object();
+basicCredentials2.equals(object0);
+civAuthenticator0.authenticate(basicCredentials2);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials1);
+String string5 = "";
+String string6 = "no.asgari.civilization.server.application.CivAuthenticator";
+BasicCredentials basicCredentials3 = new BasicCredentials(string5, string6);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials3.equals(optional0);
+basicCredentials3.toString();
+basicCredentials3.toString();
+civAuthenticator0.authenticate(basicCredentials3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+732440487: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "kr55n?Yx[Oo!_WkOZ";
+String string1 = "5gD4oQl1nlx<!Bd(M.";
+String string2 = "";
+String string3 = "";
+BasicCredentials basicCredentials0 = new BasicCredentials(string2, string3);
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-1567628372: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "t!Yb7]K~HX+z?:4b!";
+String string1 = null;
+BasicCredentials basicCredentials0 = new BasicCredentials(string1, string1);
+basicCredentials0.toString();
+basicCredentials0.toString();
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+String string2 = ";c8l!!O^;A";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string2);
+basicCredentials1.equals(optional0);
+basicCredentials1.toString();
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string3 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials2 = new BasicCredentials(string2, string3);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-1887808668: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = null;
+String string1 = "+INF";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.equals(string0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+944243771: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+String string0 = ".?0JwB|PqsHSd(";
+String string1 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+2044766883: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "2@)#qu[$OF^T^RW&Xbe";
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "3yl";
+String string2 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.equals(basicCredentials0);
+BasicCredentials basicCredentials2 = new BasicCredentials(string0, string0);
+Object object1 = new Object();
+basicCredentials1.equals(object1);
+basicCredentials2.equals(string2);
+Object object2 = new Object();
+basicCredentials2.equals(object2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-632347451: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "org.bson.codecs.BsonInt32Codec";
+String string1 = "no.asgari.civilization.server.application.CivAuthenticator";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+basicCredentials0.equals(string0);
+basicCredentials0.equals(string1);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+-365849487: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "com.fasterxml.jackson.databind.DatabindContext";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials0);
+String string1 = "$AD";
+String string2 = "";
+BasicCredentials basicCredentials1 = new BasicCredentials(string1, string2);
+basicCredentials1.toString();
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+Object object0 = new Object();
+basicCredentials0.toString();
+basicCredentials1.equals(object0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials0);
+basicCredentials0.toString();
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+},
+-242809285: { fitness: 919.500000, code:{
+DB dB0 = null;
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "!;XsL>^OJ''R-6=jq?@P";
+String string1 = "UFI~h4!=C>";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},
+1292260496: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+BasicCredentials basicCredentials0 = null;
+civAuthenticator0.authenticate(basicCredentials0);
+Optional<Player> optional0 = civAuthenticator0.authenticate(basicCredentials0);
+BasicCredentials basicCredentials1 = new BasicCredentials(string0, string0);
+civAuthenticator0.authenticate(basicCredentials1);
+Optional<Player> optional1 = civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+String string1 = "Attempting to decode the string ''%s'' to a character, but its length is not equal to one";
+BasicCredentials basicCredentials2 = new BasicCredentials(string1, string1);
+Object object0 = new Object();
+basicCredentials2.equals(object0);
+basicCredentials2.equals(optional0);
+civAuthenticator0.authenticate(basicCredentials2);
+basicCredentials2.equals(optional1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials0);
+civAuthenticator0.authenticate(basicCredentials2);
+
+	}
+},
+-1251384825: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "AF`xT";
+String string1 = "player";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+String string2 = "org.bson.json.LegacyExtendedJsonBinaryConverter";
+BasicCredentials basicCredentials1 = new BasicCredentials(string2, string2);
+basicCredentials1.equals(civAuthenticator0);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+Object object0 = new Object();
+basicCredentials1.equals(object0);
+civAuthenticator0.authenticate(basicCredentials1);
+basicCredentials1.toString();
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+civAuthenticator0.authenticate(basicCredentials1);
+String string3 = "";
+String string4 = "4mI:%/~c\\#4Iy~ `}";
+BasicCredentials basicCredentials2 = new BasicCredentials(string3, string4);
+basicCredentials2.toString();
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials2);
+civAuthenticator0.authenticate(basicCredentials1);
+
+	}
+}, }
+
+Uncovered goals in iteration 1: 58
+Covered goals(7) iteration 1
+	 no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 35 
+	 no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 34 
+	 Weak Mutation 0: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V:35 - ReplaceConstant - player ->  
+	 no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch 
+	 [METHOD] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V 
+	 Branch no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch in context: no.asgari.civilization.server.application.CivAuthenticator:<init>(Lcom/mongodb/DB;)V 
+	 <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT 
+
+Target goals(13) iteration 1
+	 [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true, 
+	 no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false, 
+	 Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username -> , 
+	 Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false, 
+	 [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41, 
+	 [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43, 
+	 no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40, 
+
+Goals for chromosomes in iteration 1: {
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 35 }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 34 }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 0.000000, goal: Weak Mutation 0: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V:35 - ReplaceConstant - player ->  }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: [METHOD] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 0.000000, goal: Branch no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch in context: no.asgari.civilization.server.application.CivAuthenticator:<init>(Lcom/mongodb/DB;)V }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:NonNull }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - true }
+{ fitness: 0.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: root-Branch }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V: Line 36 }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I108 Branch 7 IFNULL L40 - false }
+{ fitness: 227.000000, goal: Weak Mutation 1: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:40 - ReplaceConstant - username ->  }
+{ fitness: 227.000000, goal: Weak Mutation 2: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:43 - ReplaceComparisonOperator = null -> != null }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - true }
+{ fitness: 114.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: I20 Branch 1 IFNULL L43 - false }
+{ fitness: 1.000000, goal: [Output]: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;:Null }
+{ fitness: 1.000000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: root-Branch }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 41 }
+{ fitness: 1.000000, goal: [METHODNOEX] no.asgari.civilization.server.application.CivAuthenticator.<init>(Lcom/mongodb/DB;)V }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 43 }
+{ fitness: 1.500000, goal: no.asgari.civilization.server.application.CivAuthenticator.authenticate(Lio/dropwizard/auth/basic/BasicCredentials;)Ljava/util/Optional;: Line 40 }
+{ fitness: 0.000000, goal: <init>(Lcom/mongodb/DB;)V_java.lang.NullPointerException_IMPLICIT }
+}'
+]
+
 { #category : 'example' }
 VESTest >> codeIndividualExample [
 ^ '-813251331: { fitness: 328.500000, code:{
@@ -15248,14 +20308,43 @@ VESTest >> testExample [
 	self assert: gen numberOfIndividuals equals: 25.
 
 	firstInd := gen individuals first.
-	self assert: firstInd esHash equals: '-813251331'.
+	self assert: firstInd esHash equals: '-813251331' asInteger.
 	self assert: firstInd fitness equals: 328.5.
 	
 	secondInd := gen individuals second.
-	self assert: secondInd esHash equals: '318957721'.
+	self assert: secondInd esHash equals: '318957721' asInteger.
 	self assert: secondInd fitness equals: 328.5.
 	
 	
+]
+
+{ #category : 'tests' }
+VESTest >> testExampleWithCrossover [
+	| model gen firstInd secondInd indP1 indP2 indO1 indO2 |
+	model := VESModel new.
+	model importFromString: self codeExampleWithCrossover.
+	self assert: model numberOfGenerations equals: 3.
+
+	gen := model generations first.
+	self assert: gen numberOfIndividuals equals: 50.
+
+	firstInd := gen individuals first.
+	self assert: firstInd esHash equals: '1922564739' asInteger.
+	self assert: firstInd fitness equals: 919.5.
+	
+	secondInd := gen individuals second.
+	self assert: secondInd esHash equals: '-1915796179' asInteger.
+	self assert: secondInd fitness equals: 919.5.
+	
+	"Testing crossover"
+	indP1 := model individualFromHash: 1292260496.
+	indP2 := model individualFromHash: 28733518.
+	indO1 := model individualFromHash: -73893214.
+	indO2 := model individualFromHash: 1343748545.
+"	self assert: indP1 notNil.
+	self assert: indP2 notNil.
+	self assert: indO1 notNil.
+	self assert: indO2 notNil."
 ]
 
 { #category : 'tests' }
@@ -15264,7 +20353,7 @@ VESTest >> testIndividual [
 	model := VESModel new.
 	ind := model importIndividualFromString: self codeIndividualExample.
 	
-	self assert: ind esHash equals: '-813251331'.
+	self assert: ind esHash equals: '-813251331' asInteger.
 	self assert: ind fitness equals: 328.500000.
 	self assert: ind code equals: 
 'Stack<Integer> stack0 = new Stack<Integer>();

@@ -2,11 +2,18 @@ Class {
 	#name : 'VESModel',
 	#superclass : 'Object',
 	#instVars : [
-		'generations'
+		'generations',
+		'allIndividualsCache'
 	],
 	#category : 'VisualizationEvoSuite',
 	#package : 'VisualizationEvoSuite'
 }
+
+{ #category : 'as yet unclassified' }
+VESModel >> allIndividuals [
+	allIndividualsCache ifNotNil: [ ^ allIndividualsCache ].
+	^ allIndividualsCache := generations inject: #() into: [ :res :g | res, g individuals ]
+]
 
 { #category : 'accessing' }
 VESModel >> generations [
@@ -30,6 +37,8 @@ VESModel >> importFromString: aString [
 					ifTrue: [ currentGeneration addIndividual: (self importIndividualFromString: (String cr join: currentIndividualLines)).
 								 currentIndividualLines := OrderedCollection new. ]
 					ifFalse: [ currentIndividualLines add: l ] ].
+		(l beginsWith: 'crossover(') 
+			ifTrue: [ self processCrossover: l ]
 	]
 ]
 
@@ -40,12 +49,17 @@ VESModel >> importIndividualFromString: string [
 	allLines := string lines.
 	header := allLines first.
 	ss := header substrings.
-	ind esHash: ss first allButLast.
+	ind esHash: ss first allButLast asInteger.
 	ind fitness: (Float readFrom: ss fourth).
 	ind code: (String cr join: (allLines copyFrom: 2 to: allLines size - 3)).
 	^ ind
 	
 
+]
+
+{ #category : 'as yet unclassified' }
+VESModel >> individualFromHash: anHash [
+	^ self allIndividuals detect: [ :i | i esHash = anHash ] ifNone: [ nil ] 
 ]
 
 { #category : 'as yet unclassified' }
@@ -70,6 +84,26 @@ VESModel >> numberOfGenerations [
 { #category : 'as yet unclassified' }
 VESModel >> numberOfIndividuals [
 	^ generations inject: 0 into: [ :sum :g | sum + g size ]
+]
+
+{ #category : 'as yet unclassified' }
+VESModel >> processCrossover: line [
+	| ss genId parent1Hash parent2Hash individualP1 individualP2 off1Hash off2Hash individualO1 individualO2 |
+	ss := line substrings: '():,{}'.
+	genId := ss second asInteger.
+	parent1Hash := ss fourth asInteger.
+	parent2Hash := ss sixth asInteger.
+	
+	off1Hash := (ss at: 10) asInteger.
+	off2Hash := (ss at: 16) asInteger.
+
+	individualP1 := self individualFromHash: parent1Hash.
+	individualP2 := self individualFromHash: parent2Hash.
+	
+	individualO1 := self individualFromHash: off1Hash.
+	individualO2 := self individualFromHash: off2Hash.
+	
+	self haltIf: [ individualO1 notNil or: [ individualO2 notNil ] ]
 ]
 
 { #category : 'as yet unclassified' }
