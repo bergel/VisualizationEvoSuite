@@ -108,8 +108,13 @@ VESModel >> processCrossover: line [
 
 { #category : 'as yet unclassified' }
 VESModel >> visualize [
-	| c composite indsShapes boxInd allIndividualShapes |
+	| c composite indsShapes boxInd allIndividualShapes minLoc maxLoc scale |
 	c := RSCanvas new.
+	
+	minLoc := self allIndividuals min: #loc.
+	maxLoc := self allIndividuals max: #loc.
+	scale := NSScale linear.
+	scale domain: { minLoc . maxLoc }; range: { 5 . 20 }.
 	self generations do: [ :g |
 		composite := RSComposite new.
 		composite color: Color veryVeryLightGray.
@@ -126,7 +131,9 @@ VESModel >> visualize [
 	
 		RSNormalizer size
 			shapes: indsShapes;
+			scale: scale;
 			normalize: #loc.
+		"indsShapes do: [ :s | s size: (scale scale: s model loc) asInteger ]."
 		composite padding: 10.
 		RSHorizontalLineLayout on: indsShapes.
 		composite shapes: indsShapes.
