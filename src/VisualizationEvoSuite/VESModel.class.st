@@ -129,11 +129,11 @@ VESModel >> visualize [
 			indsShapes add: boxInd.
 		].
 	
-		RSNormalizer size
+		"RSNormalizer size
 			shapes: indsShapes;
 			scale: scale;
-			normalize: #loc.
-		"indsShapes do: [ :s | s size: (scale scale: s model loc) asInteger ]."
+			normalize: #loc."
+		indsShapes do: [ :s | s size: (scale scale: s model loc) asInteger ].
 		composite padding: 10.
 		RSHorizontalLineLayout on: indsShapes.
 		composite shapes: indsShapes.
