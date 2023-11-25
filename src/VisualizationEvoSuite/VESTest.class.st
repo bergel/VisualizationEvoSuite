@@ -20290,6 +20290,21 @@ stack0.pop();
 },'
 ]
 
+{ #category : 'example' }
+VESTest >> codeIndividualExample2 [
+^ 'e3f06ab6-d95e-4d42-9766-7c78424f2229: { fitness: 919.500000, code:{
+DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "username";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);
+
+	}
+},'
+]
+
 { #category : 'tests' }
 VESTest >> testEmpty [
 	self assert: VESGeneration new numberOfIndividuals equals: 0.
@@ -20308,11 +20323,11 @@ VESTest >> testExample [
 	self assert: gen numberOfIndividuals equals: 25.
 
 	firstInd := gen individuals first.
-	self assert: firstInd esHash equals: '-813251331' asInteger.
+	self assert: firstInd esHash equals: '-813251331'.
 	self assert: firstInd fitness equals: 328.5.
 	
 	secondInd := gen individuals second.
-	self assert: secondInd esHash equals: '318957721' asInteger.
+	self assert: secondInd esHash equals: '318957721'.
 	self assert: secondInd fitness equals: 328.5.
 	
 	
@@ -20329,11 +20344,11 @@ VESTest >> testExampleWithCrossover [
 	self assert: gen numberOfIndividuals equals: 50.
 
 	firstInd := gen individuals first.
-	self assert: firstInd esHash equals: '1922564739' asInteger.
+	self assert: firstInd esHash equals: '1922564739'.
 	self assert: firstInd fitness equals: 919.5.
 	
 	secondInd := gen individuals second.
-	self assert: secondInd esHash equals: '-1915796179' asInteger.
+	self assert: secondInd esHash equals: '-1915796179'.
 	self assert: secondInd fitness equals: 919.5.
 	
 	"Testing crossover"
@@ -20353,7 +20368,7 @@ VESTest >> testIndividual [
 	model := VESModel new.
 	ind := model importIndividualFromString: self codeIndividualExample.
 	
-	self assert: ind esHash equals: '-813251331' asInteger.
+	self assert: ind esHash equals: '-813251331'.
 	self assert: ind fitness equals: 328.500000.
 	self assert: ind code equals: 
 'Stack<Integer> stack0 = new Stack<Integer>();
@@ -20390,4 +20405,22 @@ stack0.push(integer7);
 stack0.push(integer6);
 stack0.isEmpty();
 stack0.pop();'
+]
+
+{ #category : 'tests' }
+VESTest >> testIndividual2 [
+	| model ind |
+	model := VESModel new.
+	ind := model importIndividualFromString: self codeIndividualExample2.
+	
+	self assert: ind esHash equals: 'e3f06ab6-d95e-4d42-9766-7c78424f2229'.
+	self assert: ind fitness equals: 919.500000.
+	self assert: ind code equals: 
+'DB dB0 = mock(DB.class, new ViolatedAssumptionAnswer());
+doReturn((DBCollection) null).when(dB0).getCollection(anyString());
+CivAuthenticator civAuthenticator0 = new CivAuthenticator(dB0);
+String string0 = "";
+String string1 = "username";
+BasicCredentials basicCredentials0 = new BasicCredentials(string0, string1);
+civAuthenticator0.authenticate(basicCredentials0);'
 ]

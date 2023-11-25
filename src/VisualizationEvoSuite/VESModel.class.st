@@ -22,9 +22,10 @@ VESModel >> generations [
 
 { #category : 'as yet unclassified' }
 VESModel >> importFromString: aString [
-	| s l currentGeneration currentIndividualLines |
+	| s l currentGeneration currentIndividualLines crossoverLines |
 	s := aString readStream.
 	
+	crossoverLines := OrderedCollection new.
 	[ s atEnd ] whileFalse: [ 
 		l := s nextLine.	
 	 	(l = ' Initial population: { ' or: [ l beginsWith: 'Population for iteration:' ]) 
@@ -38,8 +39,10 @@ VESModel >> importFromString: aString [
 								 currentIndividualLines := OrderedCollection new. ]
 					ifFalse: [ currentIndividualLines add: l ] ].
 		(l beginsWith: 'crossover(') 
-			ifTrue: [ self processCrossover: l ]
-	]
+			ifTrue: [ crossoverLines add: l ]
+	].
+
+	crossoverLines do: [ :l | self processCrossover: l ]
 ]
 
 { #category : 'as yet unclassified' }
@@ -49,7 +52,7 @@ VESModel >> importIndividualFromString: string [
 	allLines := string lines.
 	header := allLines first.
 	ss := header substrings.
-	ind esHash: ss first allButLast asInteger.
+	ind esHash: ss first allButLast.
 	ind fitness: (Float readFrom: ss fourth).
 	ind code: (String cr join: (allLines copyFrom: 2 to: allLines size - 3)).
 	^ ind
@@ -91,19 +94,26 @@ VESModel >> processCrossover: line [
 	| ss genId parent1Hash parent2Hash individualP1 individualP2 off1Hash off2Hash individualO1 individualO2 |
 	ss := line substrings: '():,{}'.
 	genId := ss second asInteger.
-	parent1Hash := ss fourth asInteger.
-	parent2Hash := ss sixth asInteger.
+	parent1Hash := ss fourth trimBoth.
+	parent2Hash := ss sixth trimBoth.
 	
-	off1Hash := (ss at: 10) asInteger.
-	off2Hash := (ss at: 16) asInteger.
+	off1Hash := (ss at: 10) trimBoth.
+	off2Hash := (ss at: 16) trimBoth.
 
 	individualP1 := self individualFromHash: parent1Hash.
 	individualP2 := self individualFromHash: parent2Hash.
 	
 	individualO1 := self individualFromHash: off1Hash.
 	individualO2 := self individualFromHash: off2Hash.
-	
-	self haltIf: [ individualO1 notNil or: [ individualO2 notNil ] ]
+
+	"self haltIf: [ individualO1 notNil or: [ individualO2 notNil ] ]"
+	individualO1 notNil ifTrue: [
+		
+		individualO1 addParent: individualP1.
+		individualO1 addParent: individualP2 ].
+	individualO2 notNil ifTrue: [
+		individualO2 addParent: individualP1.
+		individualO2 addParent: individualP2 ].
 ]
 
 { #category : 'as yet unclassified' }
@@ -129,10 +139,6 @@ VESModel >> visualize [
 			indsShapes add: boxInd.
 		].
 	
-		"RSNormalizer size
-			shapes: indsShapes;
-			scale: scale;
-			normalize: #loc."
 		indsShapes do: [ :s | s size: (scale scale: s model loc) asInteger ].
 		composite padding: 10.
 		RSHorizontalLineLayout on: indsShapes.
@@ -147,6 +153,10 @@ VESModel >> visualize [
 			from: Color gray; to: Color green;
 			normalize: #fitness.
 
-	RSVerticalLineLayout new alignCenter; verticalGap: 30; on: c shapes.
+	RSLineBuilder line
+		canvas: c;
+		shapes: allIndividualShapes;
+		connectToAll: #parents.
+	RSVerticalLineLayout new alignCenter; verticalGap: 30; on: c nodes.
 	^ c @ RSCanvasController
 ]

@@ -32,7 +32,7 @@ VESExample >> smallExampleBig2 [
 { #category : 'as yet unclassified' }
 VESExample >> smallExampleReal [
 	"
-	self new smallExampleReal
+	VESExample new smallExampleReal
 	"
-	^ VESModel new importFromString: '/Users/alexandrebergel/Downloads/2023-11-23-logEvoSuite.txt' asFileReference contents
+	^ VESModel new importFromString: '/Users/alexandrebergel/Downloads/2023-11-25-logEvoSuite.txt' asFileReference contents
 ]

@@ -14,6 +14,11 @@ Class {
 }
 
 { #category : 'accessing' }
+VESIndividual >> addParent: ind [
+	parents add: ind
+]
+
+{ #category : 'accessing' }
 VESIndividual >> code [
 
 	^ code
@@ -34,7 +39,7 @@ VESIndividual >> esHash [
 { #category : 'accessing' }
 VESIndividual >> esHash: anObject [
 
-	esHash := anObject asInteger
+	esHash := anObject
 ]
 
 { #category : 'accessing' }
@@ -52,7 +57,8 @@ VESIndividual >> fitness: anObject [
 { #category : 'initialization' }
 VESIndividual >> initialize [
 	super initialize.
-	offsprings := OrderedCollection new
+	offsprings := OrderedCollection new.
+	parents := OrderedCollection new
 ]
 
 { #category : 'as yet unclassified' }
